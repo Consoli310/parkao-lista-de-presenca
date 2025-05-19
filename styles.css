@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: #121212;
+     overflow: auto;
+     padding-top: 100px;
+}
+
+.input-container {
+   display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   width: 400px;
+   height: 300px;
+   gap: 20px;
+   color: #E0E0E0;
+   padding-top: 100px;;
+}
+
+.input-title {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 40px;
+}
+
+.input{
+    background-color: #1E1E1E;
+    color: #E0E0E0;
+    width: 250px;
+    height: 50px;
+    font-size: 30px;
+}
+
+.btn {
+    margin: 0 auto;
+    width: 100px;
+    height: 30px;
+    background-color: #2E7D32;
+    color: #E0E0E0;
+    font-size: 23px;
+}
+
+.btn:hover {
+  background-color: #388E3C;
+  cursor: pointer;
+}
+
+.list {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 400px;
+    overflow: auto;
+}
+
+.list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.list::-webkit-scrollbar-track {
+  background: #1E1E1E;
+}
+
+.list::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.list::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.divName {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 400px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.deleteButton {
+    width: 60px;
+    height: 30px;
+    background-color: #E53935;
+    color: #E0E0E0;
+}
+
+.deleteButton:hover {
+    background-color: #D32F2F; 
+    color: #FFFFFF; 
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+
+.name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #E0E0E0;
+    width: 300px;
+    height: 50px;
+}
